@@ -5,7 +5,7 @@ MAINTAINER OpenShift Developer Services <openshift-dev-services+jenkins@redhat.c
 
 # Labels consumed by Red Hat build service
 
-ENV MAVEN_VERSION=3.6 \
+ENV MAVEN_VERSION=3.5 \
     LANG=en_US.UTF-8 \
     LC_ALL=en_US.UTF-8 \
     MAVEN_OPTS="-Duser.home=$HOME"
