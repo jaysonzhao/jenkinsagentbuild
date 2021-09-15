@@ -1,4 +1,4 @@
-FROM openshift/ose-jenkins-agent-base:v4.8.0.20210831.211731
+FROM jenkins-agent-base:latest
 ENV __doozer=update BUILD_RELEASE=202108312109.p0.git.8f554e2.assembly.stream BUILD_VERSION=v4.8.0 OS_GIT_MAJOR=4 OS_GIT_MINOR=8 OS_GIT_PATCH=0 OS_GIT_TREE_STATE=clean OS_GIT_VERSION=4.8.0-202108312109.p0.git.8f554e2.assembly.stream SOURCE_GIT_TREE_STATE=clean 
 ENV __doozer=merge OS_GIT_COMMIT=8f554e2 OS_GIT_VERSION=4.8.0-202108312109.p0.git.8f554e2.assembly.stream-8f554e2 SOURCE_DATE_EPOCH=1626996972 SOURCE_GIT_COMMIT=8f554e2ad7ab8636cdbf55b5d0bde4577a5c0af6 SOURCE_GIT_TAG=8f554e2 SOURCE_GIT_URL=https://github.com/openshift/jenkins 
 MAINTAINER OpenShift Developer Services <openshift-dev-services+jenkins@redhat.com>
